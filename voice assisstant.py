@@ -92,7 +92,10 @@ APP_ALIASES = {
 def smart_open(target):
 
     target = target.lower()
-
+    if target == "whatsapp":
+        os.startfile("whatsapp:")
+        speak("Opening WhatsApp")
+        return
     # check alias
     if target in APP_ALIASES:
         real_name = APP_ALIASES[target]
