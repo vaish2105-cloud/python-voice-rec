@@ -39,6 +39,6 @@ python voice_assistant.py
 
 ## Author
 
-**Srishti Singh**
+**Vaishnavi Singh**
 
 GitHub: https://github.com/vaish2105-cloud
